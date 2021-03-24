@@ -12,7 +12,7 @@ const avisRoutes = require('./routes/avis');
 
 
 
-mongoose.connect('mongodb+srv://esilv:esilv@cluster0.vc6hp.mongodb.net/ibrahim?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:mdp@cluster.****.mongodb.net/ibrahim?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex:true
